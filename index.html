@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yehualashet Hailu | Full-stack Developer & Designer</title>
+  <meta name="description" content="Portfolio of Yehualashet Hailu — Information System Student at Bahir Dar University, passionate developer creating elegant digital experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="bg-animate"></div>
+
+<header class="navbar">
+  <div class="logo" onclick="location.href='index.html'">YEHUALASHET</div>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-glow" style="top: 10%; left: 20%;"></div>
+  <div class="hero-glow" style="bottom: 10%; right: 15%; width: 400px; height: 400px; animation-delay: -2s;"></div>
+  <div class="avatar-wrapper">
+    <img class="profile-avatar" src="https://avatars.githubusercontent.com/u/239943262?v=4" alt="Yehualashet Hailu" />
+  </div>
+  <h1>Yehualashet Hailu</h1>
+  <p class="subtitle"><i class="fas fa-code"></i> Information System Student · Full-stack web developer</p>
+  <p class="bio">Transforming concepts into elegant, performant web solutions. Passionate about building interfaces that inspire and systems that scale.</p>
+  <div class="hero-btns" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+    <a href="https://github.com/YehualashetHailu" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> Explore GitHub</a>
+    <a href="about.html" class="btn btn-outline"><i class="fas fa-user-astronaut"></i> Discover More</a>
+  </div>
+  <div class="contact-info-row">
+    <span><i class="fas fa-phone-alt"></i> +251 983479076</span>
+    <span><i class="fas fa-envelope"></i> yehualashethailu03@gmail.com</span>
+    <span><i class="fas fa-map-marker-alt"></i> Bahir Dar, Ethiopia</span>
+  </div>
+</section>
+
+<div class="stats" id="profile-stats">
+  <div class="stat"><div class="stat-num" id="repoCount">—</div><div class="stat-label"><i class="fas fa-database"></i> Repositories</div></div>
+  <div class="stat"><div class="stat-num" id="followersCount">—</div><div class="stat-label"><i class="fas fa-users"></i> Followers</div></div>
+  <div class="stat"><div class="stat-num" id="followingCount">—</div><div class="stat-label"><i class="fas fa-user-plus"></i> Following</div></div>
+</div>
+
+<section class="section">
+  <div class="section-header">
+    <h2><i class="fas fa-crown"></i> Featured Projects</h2>
+    <p>Creative engineering & open source contributions — Live on <a href="https://github.com/YehualashetHailu" target="_blank" style="color:var(--accent)">GitHub</a></p>
+  </div>
+  <div class="projects-grid" id="repos-home">
+    <div class="loading"><i class="fas fa-spinner fa-pulse"></i> Fetching repositories...</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2><i class="fas fa-cogs"></i> Tech Arsenal</h2>
+    <p>Tools & technologies I master to craft digital magic</p>
+  </div>
+  <div class="skills-grid">
+    <span class="skill-badge"><i class="fab fa-js"></i> JavaScript (ES6+)</span>
+    <span class="skill-badge"><i class="fab fa-html5"></i> HTML5</span>
+    <span class="skill-badge"><i class="fab fa-css3-alt"></i> CSS3 / Tailwind</span>
+    <span class="skill-badge"><i class="fab fa-git-alt"></i> Git & GitHub Actions</span>
+    <span class="skill-badge"><i class="fab fa-node"></i> Node.js</span>
+    <span class="skill-badge"><i class="fab fa-java"></i> Java / Spring</span>
+    <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+    <span class="skill-badge"><i class="fas fa-cloud"></i> REST APIs</span>
+    <span class="skill-badge"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+    <span class="skill-badge"><i class="fas fa-database"></i> MongoDB / MySQL</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2><i class="fas fa-handshake"></i> Let's Connect</h2>
+    <p>Open for collaborations, freelance work, or just a tech chat</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <div class="contact-icon"><i class="fab fa-github"></i></div>
+      <h3>GitHub Profile</h3>
+      <a href="https://github.com/YehualashetHailu" target="_blank">@YehualashetHailu</a>
+      <p style="margin-top:0.7rem; font-size:0.8rem;">Explore my open source work</p>
+    </div>
+    <div class="contact-card">
+      <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+      <h3>Phone / Telegram</h3>
+      <a href="tel:0983479076">+251 983479076</a>
+      <p style="margin-top:0.5rem; font-size:0.8rem;">Available 9am–6pm EAT</p>
+    </div>
+    <div class="contact-card">
+      <div class="contact-icon"><i class="fas fa-envelope-open-text"></i></div>
+      <h3>Email</h3>
+      <a href="mailto:yehualashethailu03@gmail.com">yehualashethailu03@gmail.com</a>
+      <p style="margin-top:0.5rem; font-size:0.8rem;">I reply within 24h</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Yehualashet Hailu — Crafted with <i class="fas fa-heart" style="color:#ec4899"></i> & modern design</p>
+  <p style="margin-top: 0.7rem; font-size:0.8rem;">
+    <a href="tel:0983479076"><i class="fas fa-phone"></i> Call</a> &nbsp;|&nbsp;
+    <a href="mailto:yehualashethailu03@gmail.com"><i class="fas fa-envelope"></i> Mail</a> &nbsp;|&nbsp;
+    <a href="https://github.com/YehualashetHailu" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+  </p>
+</footer>
+
+<script>
+  (function() {
+    const username = 'YehualashetHailu';
+    const reposContainer = document.getElementById('repos-home');
+    const repoStat = document.getElementById('repoCount');
+    const followerStat = document.getElementById('followersCount');
+    const followingStat = document.getElementById('followingCount');
+
+    async function fetchGitHubStats() {
+      try {
+        const userRes = await fetch(`https://api.github.com/users/${username}`);
+        if (!userRes.ok) throw new Error('User fetch failed');
+        const userData = await userRes.json();
+        if (repoStat) repoStat.innerText = userData.public_repos || 0;
+        if (followerStat) followerStat.innerText = userData.followers || 0;
+        if (followingStat) followingStat.innerText = userData.following || 0;
+      } catch (err) {
+        console.warn('Stats error:', err);
+        if (repoStat) repoStat.innerText = '15+';
+        if (followerStat) followerStat.innerText = '8';
+        if (followingStat) followingStat.innerText = '12';
+      }
+    }
+
+    async function fetchRepos() {
+      if (!reposContainer) return;
+      reposContainer.innerHTML = '<div class="loading"><i class="fas fa-spinner fa-pulse"></i> Loading awesome projects...</div>';
+      try {
+        const res = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`);
+        if (!res.ok) throw new Error('Repo fetch failed');
+        let repos = await res.json();
+        if (!repos.length) {
+          reposContainer.innerHTML = '<div class="empty"><i class="fas fa-folder-open"></i> No public repositories found</div>';
+          return;
+        }
+        repos = repos.filter(r => !r.fork).slice(0, 6);
+        const cardsHtml = repos.map(repo => {
+          let langColor = '#6366f1';
+          if (repo.language === 'JavaScript') langColor = '#f7df1e';
+          else if (repo.language === 'CSS') langColor = '#38bdf8';
+          else if (repo.language === 'HTML') langColor = '#e34c26';
+          else if (repo.language === 'Python') langColor = '#3572A5';
+          else if (repo.language === 'Java') langColor = '#b07219';
+          return `
+            <div class="project-card" onclick="window.open('${repo.html_url}', '_blank')">
+              <h3><i class="fab fa-github" style="font-size:1rem; margin-right:8px;"></i> ${repo.name.replace(/-/g, ' ').substring(0, 28)}</h3>
+              <p class="desc">${repo.description ? repo.description.substring(0, 100) : 'No description available yet — but the code tells a story ✨'}</p>
+              <div class="project-meta">
+                <div class="project-stats">
+                  <span><i class="fas fa-star"></i> ${repo.stargazers_count}</span>
+                  <span><i class="fas fa-code-branch"></i> ${repo.forks_count}</span>
+                  <span><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${langColor};margin-right:4px;"></span> ${repo.language || 'N/A'}</span>
+                </div>
+                <div class="project-tag" style="background:${langColor}20; color:${langColor === '#f7df1e' ? '#f7df1e' : '#a78bfa'}">${repo.language || 'code'}</div>
+              </div>
+            </div>
+          `;
+        }).join('');
+        reposContainer.innerHTML = cardsHtml;
+      } catch (err) {
+        console.error('Repo fetch error:', err);
+        reposContainer.innerHTML = '<div class="error"><i class="fas fa-exclamation-triangle"></i> Could not load repos, but you can check <a href="https://github.com/YehualashetHailu" target="_blank" style="color:var(--accent)">GitHub directly</a> ✨</div>';
+      }
+    }
+
+    fetchGitHubStats();
+    fetchRepos();
+  })();
+</script>
+</body>
+</html>
